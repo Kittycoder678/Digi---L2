@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fredoka:wght@600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+html, body {
+    background-color: #cef0e666;
+    margin: 0;
+    padding:0;
+    font-size: 100%;
+    height: 100%;
+}
+
+header{
+height:100%;
+}
+
+h1 {
+    background-color: #003B7C;
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    border: 0 solid #003B7C;
+    padding: 0.5%;
+    margin: 0;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: relative
+}
+
+div.menu-box {
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color:#003B7C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+div.menu-box-open{
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color:#d9d2e9ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 3;
+}
+
+.material-symbols-outlined {
+    font-size: 120%;
+    position: absolute;
+    padding: 15%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin: 0;
+}
+
+  span.menuEcon{
+  color:#000000;  
+}
+
+#menu {
+    size: 100%;
+}
+
+p,
+ol {
+    color: #d9d2e9ff;
+    font-size: 1.1em;
+    margin-top: 1.65em;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 3.3em;
+}
+
+h3 {
+    color:pink;
+}
+
+#menuBar {
+    position: absolute;
+    background-color: #d9d2e9ff;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 15%;
+    z-index: 2;
+    display: none;
+}
+
+.menu-link {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-left: 10%;
+    color: black;
+    font-family: "Fredoka", sans-serif;
+    text-decoration: none;
+}
+
+.menu-link:hover,
+.header-link:hover {
+    color: #4F8726FF;
+}
+
+h4 {
+    color: black;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-left: 10%;
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    padding: 0%;
+}
+
+.header-link {
+    color: #396d17;
+    font-size: 1.4em;
+    margin-left: 5%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+    text-decoration: none;
+}
+
+.current-link {
+    font-size: 1em;
+    margin-left: 10%;
+    color: #636363;
+    font-family: "Fredoka", sans-serif;
+    text-decoration: none;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    font-weight: 600;
+    padding: 0%;
+}
+
+.rectangle {
+    width: 35%;
+    height: 36.5%;
+    background-color: #003B7C;
+    border: 1cm 1cm 1cm 1cm;
+    position: absolute;
+    top: 52.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+    border: 3.25px solid black;
+}
+
+.imgMask{
+    height:42.5%;
+    width:22.5%;
+    position:absolute;
+    top:35%;
+    left:5%;
+    z-index:1;
+}
+
+.imgVirus{
+    height:42%;
+    width:22.5%;
+    position:absolute;
+    top:35%;
+    right:2.5%;
+    z-index:1;
+}
+
+img{
+    opacity: 100%;    
+}
+
+h6{
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 420%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+}
+
+h2{
+    font-family: "Fredoka", sans-serif;
+    font-size: 220%;    
+}
+
+footer {
+    background-color: #d9d2e9ff;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+    margin-top: 5%;
+    padding: 1%;
+    z-index:2;
+}
+
+@media only screen and (max-width: 3256px) {
+    #menuBar {
+        padding-top: 9%;
+    }
+    html, body {
+    background-color: lavender;
+}
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 500%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}
+}
+@media only screen and (max-width: 1856px) {
+    #menuBar {
+        padding-top: 9%;
+    }
+    html, body {
+    background-color: pink;
+}
+
+}
+@media only screen and (max-width: 1750px) {
+    html, body {
+    background-color: floralwhite;
+}
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 320%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}
+}
+
+@media only screen and (max-width: 1200px) {
+    #menuBar {
+        padding-top: 9%;
+        width: 22%;
+    }
+    html, body {
+    background-color: peachpuff;
+}
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 280%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}
+}
+
+@media only screen and (max-width: 1080px) {
+    #menuBar {
+        padding-top: 20%;
+    }
+html, body {
+    background-color: palegoldenrod;
+}
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 240%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}
+}
+@media only screen and (max-width: 995px) {
+        div.menu_box {
+            height: 120%;
+            width: 20%;
+            aspect-ratio: 1/1;
+            background-color:#003B7C;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    #menuBar {
+        padding-top: 10%;
+        width: 25%;
+    }
+html, body {
+    background-color: papayawhip;
+}    
+}
+
+@media only screen and (max-width: 855px) {
+    #menuBar {
+        padding-top: 10%;
+    }
+    html, body {
+    background-color: plum;
+}
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 220%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}    
+}
+
+@media only screen and (max-width: 840px) {
+    h1 {
+        font-size: 3em;
+        padding-left: 20%;
+    }
+    #menuBar {
+        padding-top: 10%;
+        width: 32%;
+    }
+     html, body {
+    background-color: purple;
+}
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}        
+}
+
+@media only screen and (max-width: 805px) {
+    h1 {
+        font-size: 2.5em;
+        padding-left: 25%;
+        letter-spacing: normal;
+    }
+    #menuBar {
+        width: 30%;
+        padding-top: 10%;
+    }
+     html, body {
+    background-color:blueviolet ;
+} 
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 180%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}           
+}
+
+@media only screen and (max-width: 715px) {
+    h1 {
+        font-size: 2em;
+        padding-left: 25%;
+        letter-spacing: normal;
+    }
+    #menuBar {
+        padding-top: 14%;
+    }
+    html, body {
+    background-color:burlywood ;
+} 
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 170%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}             
+}
+
+@media only screen and (max-width: 678px) {
+    h1 {
+        font-size: 2em;
+        padding-left: 25%;
+        letter-spacing: normal;
+    }
+    #menuBar {
+        padding-top: 14%;
+    }
+    html, body {
+    background-color:burlywood ;
+}
+
+h6 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top:2.5%;
+    margin: 0;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 25;
+    letter-spacing: 2.5px;
+    position: absolute; 
+}   
+}
+
+@media only screen and (max-width: 530px) {
+    h1 {
+        font-size: 2em;
+        letter-spacing: normal;
+        padding-left: 20%;
+    }
+    #menuBar {
+        width: 45%;
+        padding-top: 20%;
+    }
+    html, body {
+    background-color:honeydew ;
+}    
+}
