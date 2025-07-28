@@ -10,7 +10,7 @@ function openMen() {
     menuBars.style.display = 'initial';
     menuTest.style.display = 'initial';
     menuTitle.style.display = 'initial';
-    menuBox.style.display = 'none';
+    menuBo.style.display = 'none';
     menuTitles.style.display = 'none';
 }
 
@@ -23,12 +23,14 @@ function reset() {
 }
 
 function rese() {
-    menuBox.style.display = 'initial';
+    menuBo.style.display = 'initial';
     menuBars.style.display = 'none';
     menuTitles.style.display = 'initial';
     menuTest.style.display = 'none';
     menuTitle.style.display = 'none';
 }
 
-menuBox.onmouseover = openMenu & openMen;
-menuBar.onmouseleave = reset & rese;
+menuBox.onmouseover = openMenu;
+menuBar.onmouseleave = reset;
+menuBo.onmouseover = openMen;
+menuBars.onmouseleave = rese;
