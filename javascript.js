@@ -30,7 +30,12 @@ function rese() {
     menuTitle.style.display = 'none';
 }
 
-menuBox.onmouseover = openMenu;
-menuBar.onmouseleave = reset;
-menuBo.onmouseover = openMen;
+if(menuBo.onmouseover == true){
+menuBo.onmouseover = openMen;    
+} else{
+menuBox.onmouseover = openMenu;    
+}
+; menuBox.onmouseover = openMenu;
 menuBars.onmouseleave = rese;
+
+menuBar.onmouseleave = reset;
