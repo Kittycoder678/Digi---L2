@@ -91,11 +91,11 @@ ol {
 #menuBars {
     position: absolute;
     background-color: #d9d2e9ff;
-    top: 0;
+    top: 12%;
     left: 0;
-    height: 125%;
+    height: 160%;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     display: none;
 }
 
@@ -365,7 +365,7 @@ h3 {
     text-align: center;
     font-family: "fredoka", sans-serif;
     font-size: 1.1em;
-    margin-top: 85%;
+    margin-top: 50%;
     z-index:2;
 }
 
