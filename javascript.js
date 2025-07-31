@@ -1,19 +1,10 @@
-var hi = 0;
-var test = 0; 
 function openMenu() {
     menuBar.style.display = 'initial';
     menuTest.style.display = 'initial';
     menuTitle.style.display = 'initial';
     menuBox.style.display = 'none';
-    menuTitles.style.display = 'none';
-}
-
-function openMen() {
+    menuTitles.style.display = 'none';    
     menuBars.style.display = 'initial';
-    menuTes.style.display = 'initial';
-    menuTitl.style.display = 'initial';
-    menuBo.style.display = 'none';
-    menuTitle.style.display = 'none';
 }
 
 function reset() {
@@ -21,6 +12,15 @@ function reset() {
     menuBar.style.display = 'none';
     menuTitles.style.display = 'initial';
     menuTest.style.display = 'none';
+    menuTitle.style.display = 'none';
+    menuBars.style.display = 'none';
+}
+
+function openMen() {
+    menuBars.style.display = 'initial';
+    menuTes.style.display = 'initial';
+    menuTitl.style.display = 'initial';
+    menuBo.style.display = 'none';
     menuTitle.style.display = 'none';
 }
 
@@ -32,12 +32,7 @@ function rese() {
     menuTitl.style.display = 'none';
 }
 
-document.getElementById("hi").innerHTML = hi + 1;
-document.getElementById("test").innerHTML = test + 2;
-if ( hi == 1 || test == 0){
-menuBo.onmouseover = openMen;
-menuBars.onmouseleave = rese;    
-} else {
 menuBox.onmouseover = openMenu;
 menuBar.onmouseleave = reset;
-}
+menuBo.onmouseenter = openMen;
+menuBars.onmouseout = rese;

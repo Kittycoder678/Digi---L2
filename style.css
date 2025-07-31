@@ -37,17 +37,6 @@ div.menu-box {
     z-index: 2;
 }
 
-div.menu-bo {
-    height: 100%;
-    aspect-ratio: 1/1;
-    background-color:pink;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    z-index: 2;
-}
-
 div.menu-box-open{
     height: 100%;
     aspect-ratio: 1/1;
@@ -104,9 +93,9 @@ ol {
     background-color: #d9d2e9ff;
     top: 0;
     left: 0;
-    height: 200%;
-    width: 15%;
-    z-index: 2;
+    height: 125%;
+    width: 100%;
+    z-index: 1;
     display: none;
 }
 
@@ -131,7 +120,7 @@ h4 {
     margin-left: 10%;
     font-family: "Audiowide", sans-serif;
     text-decoration: none;
-    margin-top: 0%;
+    margin-top: 5%;
     margin-bottom: 1%;
     padding: 0%;
 }
