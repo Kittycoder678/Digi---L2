@@ -270,44 +270,47 @@ width:2%;
 }
 
 .rectangle2 {
-    width: 15cm;
+    background-color: pink;
+    width: 39%;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:8cm;
+    top:40%;
     right:5%;
     z-index:2;   
 }
 
 .rectangle3 {
-    width: 15cm;
+    width: 39%;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:16.5cm;
+    top:81.5%;
     left:5%;
     z-index:2;
 }
 
 .rectangle4 {
-    width: 15cm;
+    width: 39%;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:25cm;
+    top:118%;
     right:5%;
     z-index:2;
 }
 
 .rectangle5 {
-    width: 15cm;
+    width: 39%;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:33.5cm;
+    top:165%;
     left:5%;
     z-index:2;
 }
+
+
 
 h3 {
     z-index: 2;
@@ -321,7 +324,7 @@ h3 {
 
 .mod_images1{
     position:absolute;
-    top:8cm;
+    top:40%;
     left:6.5%;
     margin-right:0%;
     margin-left:0%;
@@ -331,7 +334,7 @@ h3 {
 
 .mod_images2{
     position:absolute;
-    top:16.5cm;
+    top:81.5%;
     right:5%;
     margin-right:0%;
     margin-left:22cm;
@@ -341,7 +344,7 @@ h3 {
 
 .mod_images3{
     position:absolute;
-    top:25cm;
+    top:118%;
     left:5%;
     margin-right:22cm;
     margin-left:0%;
@@ -349,10 +352,9 @@ h3 {
     height:25%;
 }
 
-
 .mod_images4{
     position:absolute;
-    top:33.5cm;
+    top:165%;
     right:5%;
     margin-right:0%;
     margin-left:22cm;
@@ -371,6 +373,9 @@ h3 {
 
 @media only screen and (max-width: 3256px) {
     #menuBar {
+        padding-top: 9%;
+    }
+    #menuBars {
         padding-top: 9%;
     }
     html, body {
@@ -393,6 +398,9 @@ h6 {
     #menuBar {
         padding-top: 9%;
     }
+    #menuBars {
+        padding-top: 9%;
+    }
     html, body {
     background-color: pink;
 }
@@ -403,6 +411,9 @@ h6 {
     background-color: floralwhite;
 }
 #menuBar {
+        padding-top: 7%;
+}
+#menuBars {
         padding-top: 7%;
 }
 h6 {
@@ -421,6 +432,10 @@ h6 {
 
 @media only screen and (max-width: 1200px) {
     #menuBar {
+        padding-top: 9%;
+        width: 22%;
+    }
+    #menuBars {
         padding-top: 9%;
         width: 22%;
     }
@@ -443,6 +458,9 @@ h6 {
 
 @media only screen and (max-width: 1080px) {
     #menuBar {
+        padding-top: 20%;
+    }
+    #menuBars {
         padding-top: 20%;
     }
 html, body {
@@ -479,6 +497,10 @@ h6 {
         padding-top: 10%;
         width: 20%;
     }
+    #menuBars {
+        padding-top: 10%;
+        width: 20%;
+    }
 html, body {
     background-color: papayawhip;
 }    
@@ -486,6 +508,9 @@ html, body {
 
 @media only screen and (max-width: 855px) {
     #menuBar {
+        padding-top: 10%;
+    }
+    #menuBars {
         padding-top: 10%;
     }
     html, body {
@@ -511,6 +536,10 @@ h6 {
         padding-left: 20%;
     }
     #menuBar {
+        padding-top: 10%;
+        width: 32%;
+    }
+    #menuBars {
         padding-top: 10%;
         width: 32%;
     }
@@ -541,6 +570,10 @@ h6 {
         width: 30%;
         padding-top: 10%;
     }
+    #menuBars {
+        width: 30%;
+        padding-top: 10%;
+    }
      html, body {
     background-color:blueviolet ;
 } 
@@ -565,6 +598,9 @@ h6 {
         letter-spacing: normal;
     }
     #menuBar {
+        padding-top: 14%;
+    }
+    #menuBars {
         padding-top: 14%;
     }
     html, body {
@@ -593,6 +629,9 @@ h6 {
     #menuBar {
         padding-top: 14%;
     }
+    #menuBars {
+        padding-top: 14%;
+    }
     html, body {
     background-color:violet ;
 }
@@ -618,6 +657,10 @@ h6 {
         padding-left: 20%;
     }
     #menuBar {
+        width: 40%;
+        padding-top: 12%;
+    }
+    #menuBars {
         width: 40%;
         padding-top: 12%;
     }
