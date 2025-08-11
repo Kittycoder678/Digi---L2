@@ -275,7 +275,7 @@ width:2%;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:40%;
+    top:44%;
     right:5%;
     z-index:2;   
 }
@@ -285,7 +285,7 @@ width:2%;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:81.5%;
+    top:86.5%;
     left:5%;
     z-index:2;
 }
@@ -295,7 +295,7 @@ width:2%;
     height: 1cm;
     border: 1cm 1cm 1cm 1cm;
     position: absolute;
-    top:118%;
+    top:132%;
     right:5%;
     z-index:2;
 }
@@ -324,22 +324,22 @@ h3 {
 
 .mod_images1{
     position:absolute;
-    top:40%;
+    top:35%;
     left:6.5%;
     margin-right:0%;
     margin-left:0%;
-    width:25%; 
+    width:30%; 
     height:35%;
 }
 
 .mod_images2{
     position:absolute;
-    top:81.5%;
-    right:5%;
+    top:77.5%;
+    right:6.5%;
     margin-right:0%;
     margin-left:22cm;
-    width:45%; 
-    height:25%;
+    width:30%; 
+    height:37%;
 }
 
 .mod_images3{
@@ -348,18 +348,18 @@ h3 {
     left:5%;
     margin-right:22cm;
     margin-left:0%;
-    width:45%; 
-    height:25%;
+    width:35%; 
+    height:35%;
 }
 
 .mod_images4{
     position:absolute;
-    top:165%;
+    top:155%;
     right:5%;
     margin-right:0%;
     margin-left:22cm;
-    width:45%;
-    height:25%;
+    width:35%; 
+    height:35%;
 }
 
 .footer2 {
@@ -371,11 +371,40 @@ h3 {
     z-index:2;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.question{
+  font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+#submit{
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #297;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#submit:hover{
+  background-color: #3a8;
+}
+
 @media only screen and (max-width: 3256px) {
     #menuBar {
-        padding-top: 9%;
-    }
-    #menuBars {
         padding-top: 9%;
     }
     html, body {
@@ -437,7 +466,6 @@ h6 {
     }
     #menuBars {
         padding-top: 9%;
-        width: 22%;
     }
     html, body {
     background-color: peachpuff;
@@ -499,7 +527,6 @@ h6 {
     }
     #menuBars {
         padding-top: 10%;
-        width: 20%;
     }
 html, body {
     background-color: papayawhip;
@@ -541,7 +568,6 @@ h6 {
     }
     #menuBars {
         padding-top: 10%;
-        width: 32%;
     }
      html, body {
     background-color: purple;
@@ -571,7 +597,6 @@ h6 {
         padding-top: 10%;
     }
     #menuBars {
-        width: 30%;
         padding-top: 10%;
     }
      html, body {
@@ -661,7 +686,6 @@ h6 {
         padding-top: 12%;
     }
     #menuBars {
-        width: 40%;
         padding-top: 12%;
     }
     html, body {
