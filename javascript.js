@@ -1,7 +1,7 @@
 if (document.getElementById('quizPage')) {
 var myQuestions = [
   {
-    question: "What is 10/2?",
+    question: "What is a scam?",
     answers: {
       a: '3',
       b: '5',
@@ -10,16 +10,35 @@ var myQuestions = [
     correctAnswer: 'b'
   },
   {
-    question: "What is 30/3?",
+    question: "What are features to look out for when checking for a scam?",
+    answers: {
+      a: '3',
+      b: '5',
+      c: '115'
+    },
+    correctAnswer: 'b'
+  },
+  {
+    question: "If you identify a scam what should you do?",
+    answers: {
+      a: "Enter your credit card information\n",
+      b: "\nReport it as a scam and block the sender",
+      c: "Click on the link that the scam provides"
+
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "What is the most common way people get scamed?",
     answers: {
       a: '3',
       b: '5',
       c: '10'
     },
     correctAnswer: 'c'
-  }
+  },      
 ];
-
+  console.log(myQuestions)
 var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
 var submitButton = document.getElementById('submit');
