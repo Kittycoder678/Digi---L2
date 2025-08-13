@@ -206,8 +206,11 @@ h2{
     font-family: "Audiowide", sans-serif;
     font-size: 620%;
     margin-top:2%;
-    text-align:center;    
+    text-align:center;
+    margin-bottom: 12%;
+    z-index:3;    
 }
+
 
 footer {
     background-color: #d9d2e9ff;
@@ -263,6 +266,58 @@ footer {
     margin-bottom:0%;
 }
 
+.credit-text-right{    
+    color: rgb(0, 0, 0);
+    font-family: "fredoka", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:150%;
+    margin-top:0%;
+    margin-bottom:0%;
+    position: absolute;
+    left:67%;
+    top:112%
+}
+
+.credit-text-right2{    
+    color: rgb(0, 0, 0);
+    font-family: "fredoka", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:150%;
+    margin-top:0%;
+    margin-bottom:0%;
+    position: absolute;
+    left:67%;
+    top:188%
+}
+
+.credit-text-left{    
+    color: rgb(0, 0, 0);
+    font-family: "fredoka", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:150%;
+    margin-top:0%;
+    margin-bottom:0%;
+    position: absolute;
+    right:67%;
+    top:72%
+}
+
+.credit-text-left2{    
+    color: rgb(0, 0, 0);
+    font-family: "fredoka", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:150%;
+    margin-top:0%;
+    margin-bottom:0%;
+    position: absolute;
+    right:67%;
+    top:152%
+}
+
 .header2{
 width:2%;
 }
@@ -316,6 +371,7 @@ h3 {
     text-align:center;
     width: -60%;
     height: 5%;
+    font-family: 'Open Sans';
 }
 
 .mod_images1{
@@ -370,37 +426,44 @@ h3 {
 .question{
   font-weight: 600%;
   margin-top: 0%;  
-  font-size:400%;
-  margin-left:37%;
+  font-size:300%;
+  margin-left:0%;
   z-index:3;
   font-family: 'fredoka','sans-serif';
+  text-align: center;
 }
 .answers {
     margin-bottom: 2.5%;
     margin-top: 2.5%; 
     font-size:200%;
-    margin-left:40%;
+    margin-left:0%;
     z-index:3;
     font-family: 'Open Sans';
+    text-align: center;
 }
 #submit{
   font-family: 'fredoka','sans-serif';
-  font-size: 20px;
+  font-size: 100%;
   background-color: #297;
   color: #fff;
   border: 0px;
-  border-radius: 3px;
-  padding: 20px;
+  border-radius: 3%;
+  padding: 2%;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 0%;
   margin-top: 0%;
-  margin-left:37%;
+  margin-left:46%;
   z-index:3;
 }
 #submit:hover{
   background-color: #3a8;
 }
-
+#results{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 260%;
+    margin-left:45%;
+}
 @media only screen and (max-width: 3256px) {
     #menuBar {
         padding-top: 7%;
@@ -480,6 +543,9 @@ h6 {
     font-weight: 25;
     letter-spacing: 2.5px;
     position: absolute; 
+}
+h2{
+font-size: 500%; 
 }
 }
 
@@ -765,5 +831,8 @@ h6 {
     }
     html, body {
     background-color:honeydew ;
-}    
+} 
+h2{
+    font-size:420%;
+}   
 }

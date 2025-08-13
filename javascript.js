@@ -1,39 +1,39 @@
 if (document.getElementById('quizPage')) {
 var myQuestions = [
   {
-    question: "What is a scam?",
+    question: "What is the function of a scam?",
     answers: {
-      a: '3',
-      b: '5',
-      c: '115'
+      a: 'To trick individuals into giving away money or personal information',
+      b: 'To provide secure financial advice to users',
+      c: 'To help people recover lost data from their devices'
     },
-    correctAnswer: 'b'
+    correctAnswer: 'a'
   },
   {
     question: "What are features to look out for when checking for a scam?",
     answers: {
-      a: '3',
-      b: '5',
-      c: '115'
+      a: 'Verified security badges and official contact numbers',
+      b: 'Personalized greetings and friendly tone',
+      c: 'Unusual sender addresses, urgent language, and suspicious links'
     },
-    correctAnswer: 'b'
+    correctAnswer: 'c'
   },
   {
     question: "If you identify a scam what should you do?",
     answers: {
       a: "Enter your credit card information\n",
-      b: "\nReport it as a scam and block the sender",
-      c: "Click on the link that the scam provides"
+      b: "Report it to the appropriate authorities and block the sender",
+      c: "Share the message with friends to warn them"
 
     },
     correctAnswer: "b"
   },
   {
-    question: "What is the most common way people get scamed?",
+    question: "What is the most common way people get scammed?",
     answers: {
-      a: '3',
-      b: '5',
-      c: '10'
+      a: 'By accidentally downloading music from official websites',
+      b: 'From using strong passwords on secure platforms',
+      c: 'Through phishing emails or messages pretending to be legitimate'
     },
     correctAnswer: 'c'
   },      
@@ -74,7 +74,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
       // add this question and its answers to the output
       output.push(
         '<div class="question">' + questions[i].question + '</div>'
-        + '<div class="answers">' + answers.join('') + '</div>'
+        + '<div class="answers">' + answers.join('<br>') + '</div>'
       );
     }
 
