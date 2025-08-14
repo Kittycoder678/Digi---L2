@@ -116,8 +116,22 @@ ol {
     text-decoration: none;
 }
 
+.menu-lint {
+    font-size: 180%;
+    font-weight: 600;
+    margin-left: 10%;
+    color: black;
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+}
+
 .menu-link:hover,
 .header-link:hover {
+    color: #4F8726FF;
+}
+
+.menu-lint:hover,
+.header-lint:hover {
     color: #4F8726FF;
 }
 
