@@ -107,6 +107,17 @@ ol {
     display: none;
 }
 
+#menuBarss {
+    position: absolute;
+    background-color: #d9d2e9ff;
+    top: 12%;
+    left: 0;
+    height: 152%;
+    width: 100%;
+    z-index: 2;
+    display: none;
+}
+
 .menu-link {
     font-size: 140%;
     font-weight: 400;

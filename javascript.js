@@ -125,15 +125,14 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     showResults(questions, quizContainer, resultsContainer);
   }
 }
-}
-
 function openMenu() {
     menuBar.style.display = 'initial';
     menuTest.style.display = 'initial';
     menuTitle.style.display = 'initial';
     menuBox.style.display = 'none';
     menuTitles.style.display = 'none';    
-    menuBars.style.display = 'initial';
+    menuBarss.style.display = 'initial';    
+    
 }
 
 function reset() {
@@ -142,7 +141,31 @@ function reset() {
     menuTitles.style.display = 'initial';
     menuTest.style.display = 'none';
     menuTitle.style.display = 'none';
-    menuBars.style.display = 'none';
+    menuBarss.style.display = 'none';    
+}
+
+menuBox.onmouseover = openMenu;
+menuBar.onmouseleave = reset;
+
+}
+
+function openMenu() {
+    menuBar.style.display = 'initial';
+    menuTest.style.display = 'initial';
+    menuTitle.style.display = 'initial';
+    menuBox.style.display = 'none';
+    menuTitles.style.display = 'none';      
+    menuBars.style.display = 'initial';
+    
+}
+
+function reset() {
+    menuBox.style.display = 'initial';
+    menuBar.style.display = 'none';
+    menuTitles.style.display = 'initial';
+    menuTest.style.display = 'none';
+    menuTitle.style.display = 'none';
+    menuBars.style.display = 'none';    
 }
 
 menuBox.onmouseover = openMenu;
