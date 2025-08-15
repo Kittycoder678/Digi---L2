@@ -399,7 +399,7 @@ h3 {
     font-family: 'Open Sans';
 }
 
-.mod_images1{
+.email_images1{
     position:absolute;
     top:35%;
     left:6.5%;
@@ -409,7 +409,7 @@ h3 {
     height:35%;
 }
 
-.mod_images2{
+.email_images2{
     position:absolute;
     top:73.5%;
     right:6.5%;
@@ -419,7 +419,7 @@ h3 {
     height:37%;
 }
 
-.mod_images3{
+.email_images3{
     position:absolute;
     top:116%;
     left:5%;
@@ -429,7 +429,47 @@ h3 {
     height:35%;
 }
 
-.mod_images4{
+.email_images4{
+    position:absolute;
+    top:153%;
+    right:5%;
+    margin-right:0%;
+    margin-left:22cm;
+    width:30%; 
+    height:35%;
+}
+
+.text_images1{
+    position:absolute;
+    top:153%;
+    right:5%;
+    margin-right:0%;
+    margin-left:22cm;
+    width:30%; 
+    height:35%;
+}
+
+.text_images2{
+    position:absolute;
+    top:153%;
+    right:5%;
+    margin-right:0%;
+    margin-left:22cm;
+    width:30%; 
+    height:35%;
+}
+
+.text_images3{
+    position:absolute;
+    top:153%;
+    right:5%;
+    margin-right:0%;
+    margin-left:22cm;
+    width:30%; 
+    height:35%;
+}
+
+.text_images4{
     position:absolute;
     top:153%;
     right:5%;
@@ -814,7 +854,7 @@ h6 {
     right:30%;
 }
 
-.mod_images1{
+.email_images1{
     position:absolute;
     top:40%;
     left:6.5%;
@@ -824,7 +864,7 @@ h6 {
     height:8.5cm;
 }
 
-.mod_images2{
+.email_images2{
     position:absolute;
     top:73.5%;
     right:5%;
@@ -834,7 +874,7 @@ h6 {
     height:2.5cm;
 }
 
-.mod_images3{
+.email_images3{
     position:absolute;
     top:118%;
     left:5%;
@@ -844,7 +884,7 @@ h6 {
     height:2.5cm;
 }
 
-.mod_images4{
+.email_images4{
     position:absolute;
     top:165%;
     right:5%;
