@@ -124,6 +124,9 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
   submitButton.onclick = function(){
     showResults(questions, quizContainer, resultsContainer);
   }
+  submitButton.onclick = function(){
+    showResults(questions, quizContainer, resultsContainer);
+  }
 }
 function openMenu() {
     menuBar.style.display = 'initial';
