@@ -92,6 +92,7 @@ ol {
     width: 15%;
     z-index: 2;
     display: none;
+    padding-top: 7%;
 }
 
 #menuBars {
@@ -103,6 +104,7 @@ ol {
     width: 15%;
     z-index: 2;
     display: none;
+    padding-top: 7%;
 }
 
 #menuBarss {
@@ -114,6 +116,7 @@ ol {
     width: 15%;
     z-index: 2;
     display: none;
+    padding-top: 7%;
 }
  
 .menu-link {
@@ -469,19 +472,15 @@ h3 {
 }
 
 .text_images4{
-    width: 60%;
-    position: absolute;
-    top: 75px;
-    right: 250%;
+    position:absolute;
+    top:156.5%;
+    right:6.5%;
+    margin-right:0%;
+    margin-left:22cm;
+    width:auto; 
+    height:40%;
 }
-.short-right {
-    text-align: left;
-    width: 100%;
-    position: relative;
-    left: -100%;
-    margin-left: -23%;
-    top: -50px;
-}
+
 .footer2 {
     background-color: #d9d2e9ff;
     text-align: center;
@@ -554,16 +553,10 @@ h3 {
     background-color: lavender;
 }
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 500%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
+}
+h2{
+margin-bottom: 2%; 
 }
 }
 @media only screen and (max-width: 1856px) {
@@ -580,8 +573,11 @@ h6 {
     html, body {
     background-color: pink;
 }
-
+h2{
+margin-bottom: 2%; 
 }
+}
+
 @media only screen and (max-width: 1750px) {
     html, body {
     background-color: floralwhite;
@@ -596,16 +592,7 @@ h6 {
         padding-top: 7%;
 }
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 320%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
 }
 .question{
     font-size:100%;    
@@ -638,16 +625,7 @@ margin-bottom: 2%;
 }
 
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 280%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
 }
 }
 
@@ -666,16 +644,7 @@ html, body {
     font-size:85%;
 }
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 240%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
 }
 }
 @media only screen and (max-width: 995px) {
@@ -721,16 +690,7 @@ html, body {
     background-color: plum;
 }
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 220%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
 }    
 }
 
@@ -753,16 +713,7 @@ h6 {
     background-color: purple;
 }
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 200%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
 }        
 }
 
@@ -771,6 +722,9 @@ h6 {
         font-size: 2.5em;
         padding-left: 25%;
         letter-spacing: normal;
+    }
+    h2{
+     font-size: 200%;
     }
     #menuBar {
         width: 30%;
@@ -786,94 +740,58 @@ h6 {
     background-color:blueviolet ;
 } 
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 180%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
 } 
 .rectangle2 {
     width: 39%;
-    position: absolute;
     top:44%;
     right:45%;
-    z-index:1;   
 }
 
 .rectangle3 {
     width: 39%;
-    height: 1cm;
-    border: 1cm 1cm 1cm 1cm;
-    position: absolute;
     top:83.5%;
     left:5%;
-    z-index:1;
 }
 
 .rectangle4 {
     width: 39%;
-    height: 1cm;
-    border: 1cm 1cm 1cm 1cm;
-    position: absolute;
     top:126%;
     right:5%;
-    z-index:1;
 }
 
 .rectangle5 {
     width: 39%;
-    height: 1cm;
-    border: 1cm 1cm 1cm 1cm;
-    position: absolute;
     top:168%;
     left:5%;
-    z-index:1;
 }
 
 .rectangle6 {
-    width: 69%;
-    position: absolute;
+    width: 89%;
     top:34%;
-    right:12.5%;
-    z-index:1;   
+    right:5.5%;
 }
 
 .rectangle7 {
-    width: 69%;
-    position: absolute;
+    width: 89%;
     top:88.5%;
     left:17.5%;
-    z-index:1;
 }
 
 .rectangle8 {
-    width: 69%;
-    position: absolute;
+    width: 89%;
     top:117%;
     right:12.5%;
-    z-index:1;
 }
 
 .rectangle9 {
-    width: 69%;
-    height: 1cm;
-    border: 1cm 1cm 1cm 1cm;
-    position: absolute;
+    width: 89%;
     top:176%;
     left:17.5%;
-    z-index:1;
 }
 .text_images1{
-    position:absolute;
-    top:35%;
-    left:6.5%;
-    margin-right:0%;
-    margin-left:0%;
+    top:55%;
+    left:41.5%;
     width:auto; 
     height:35%;
 }
@@ -936,16 +854,7 @@ h6 {
     background-color:burlywood ;
 } 
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 170%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
 }             
 }
 
@@ -969,16 +878,7 @@ h6 {
 }
 
 h6 {
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "audiowide", sans-serif;
-    padding-top:2.5%;
-    margin: 0;
     font-size: 150%;
-    text-transform: uppercase;
-    font-weight: 25;
-    letter-spacing: 2.5px;
-    position: absolute; 
 }
 }
 @media only screen and (max-width: 530px) {
@@ -1000,7 +900,4 @@ h6 {
     html, body {
     background-color:honeydew ;
 } 
-h2{
-    font-size:420%;
-}   
 }
