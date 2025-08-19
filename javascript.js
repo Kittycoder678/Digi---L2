@@ -124,12 +124,11 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
   submitButton.onclick = function(){
     showResults(questions, quizContainer, resultsContainer);
   }
-  submitButton.onclick = function(){
-    showResults(questions, quizContainer, resultsContainer);
-  }
 }
+
+
+
 function openMenu() {
-    menuBar.style.display = 'initial';
     menuTest.style.display = 'initial';
     menuTitle.style.display = 'initial';
     menuBox.style.display = 'none';
@@ -140,7 +139,6 @@ function openMenu() {
 
 function reset() {
     menuBox.style.display = 'initial';
-    menuBar.style.display = 'none';
     menuTitles.style.display = 'initial';
     menuTest.style.display = 'none';
     menuTitle.style.display = 'none';
@@ -148,9 +146,33 @@ function reset() {
 }
 
 menuBox.onmouseover = openMenu;
-menuBar.onmouseleave = reset;
+menuBarss.onmouseleave = reset;
 
 }
+
+if (document.getElementById('email')) {
+function openMenu() {
+    menuTest.style.display = 'initial';
+    menuTitle.style.display = 'initial';
+    menuBox.style.display = 'none';
+    menuTitles.style.display = 'none';    
+    menuBars.style.display = 'initial';    
+    
+}
+
+function reset() {
+    menuBox.style.display = 'initial';
+    menuTitles.style.display = 'initial';
+    menuTest.style.display = 'none';
+    menuTitle.style.display = 'none';
+    menuBars.style.display = 'none';    
+}
+
+menuBox.onmouseover = openMenu;
+menuBars.onmouseleave = reset;  
+}
+
+if (document.getElementById('home')) {
 
 function openMenu() {
     menuBar.style.display = 'initial';
@@ -173,3 +195,5 @@ function reset() {
 
 menuBox.onmouseover = openMenu;
 menuBar.onmouseleave = reset;
+
+}
