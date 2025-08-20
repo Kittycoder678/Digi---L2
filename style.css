@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fredoka:wght@600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 html, body {
-    background-color: #cef0e666;
+    background-color: #CEF0E6;
     margin: 0;
     padding:0;
     height: 100%;
@@ -8,15 +8,19 @@ html, body {
 }
 
 #quizPage{
-    background-color: #cef0e666;
+    background-color: #CEF0E6;
 }
 
 
+#email{
+  height: 200%;  
+}
 
 header{
 height:100%;
 }
 
+/* menu bar code */
 h1 {
     background-color: #003B7C;
     color: #F5F5F5;
@@ -46,7 +50,7 @@ div.menu-box {
 div.menu-box-open{
     height: 100%;
     aspect-ratio: 1/1;
-    background-color:#d9d2e9ff;
+    background-color:#C3E8D5;
     position: absolute;
     top: 0;
     left: 0;
@@ -85,7 +89,7 @@ ol {
 
 #menuBar {
     position: absolute;
-    background-color: #d9d2e9ff;
+    background-color: #C3E8D5;
     top: 0;
     left: 0;
     height: 100%;
@@ -97,7 +101,7 @@ ol {
 
 #menuBars {
     position: absolute;
-    background-color: #d9d2e9ff;
+    background-color: #C3E8D5;
     top: 0;
     left: 0;
     height: 167%;
@@ -109,7 +113,7 @@ ol {
 
 #menuBarss {
     position: absolute;
-    background-color: #d9d2e9ff;
+    background-color: #C3E8D5;
     top: 0;
     left: 0;
     height: 100%;
@@ -172,7 +176,7 @@ h4 {
 }
 
 .current-link2 {
-    font-size: 100%;
+    font-size: 1em;
     margin-left: 10%;
     color: #636363;
     font-family: "audiowide", sans-serif;
@@ -183,6 +187,9 @@ h4 {
     padding: 0%;
 }
 
+/* menu bar code ends */
+
+/* front page code */
 .rectangle {
     width: 35%;
     height: 36.5%;
@@ -229,6 +236,10 @@ h6{
     letter-spacing: 2.5px;
 }
 
+/* front page code ends here */
+
+/* main page code */
+
 h2{
     font-family: "audiowide", sans-serif;
     font-size: 620%;
@@ -238,15 +249,6 @@ h2{
     z-index:3;    
 }
 
-footer {
-    background-color: #d9d2e9ff;
-    text-align: center;
-    font-family: "fredoka", sans-serif;
-    font-size: 118.1%;
-    margin-top: 5%;
-    padding: 1%;
-    z-index:2;
-}
 
 .title-text{    
     color: rgb(0, 0, 0);
@@ -259,30 +261,17 @@ footer {
     margin-bottom:0%;
 }
 
+
 .credit-text-right{    
     color: rgb(0, 0, 0);
     font-family: "fredoka", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size:150%;
-    margin-top:0%;
-    margin-bottom:0%;
+    margin:0%;
     position: absolute;
     left:67%;
     top:112%
-}
-
-.credit-text-right2{    
-    color: rgb(0, 0, 0);
-    font-family: "fredoka", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size:150%;
-    margin-top:0%;
-    margin-bottom:0%;
-    position: absolute;
-    left:67%;
-    top:188%
 }
 
 .credit-text-left{    
@@ -291,8 +280,7 @@ footer {
     font-weight: 600;
     font-style: normal;
     font-size:150%;
-    margin-top:0%;
-    margin-bottom:0%;
+    margin:0%;
     position: absolute;
     right:67%;
     top:72%
@@ -304,20 +292,19 @@ footer {
     font-weight: 600;
     font-style: normal;
     font-size:150%;
-    margin-top:0%;
-    margin-bottom:0%;
+    margin:0%;
     position: absolute;
     right:67%;
     top:152%
 }
 
-
 a{
 text-decoration: none;
 }
 
+/* How I centered my main peices of text and put where they go */
+
 .rectangle2 {
-    background-color: pink;
     width: 39%;
     height: 1cm;
     position: absolute;
@@ -354,7 +341,6 @@ text-decoration: none;
 }
 
 .rectangle6 {
-    background-color: pink;
     width: 39%;
     height: 1cm;
     position: absolute;
@@ -400,14 +386,14 @@ h3 {
     height: 5%;
     font-family: 'Open Sans';
 }
-
+/* ends here */
 .email_images1{
     position:absolute;
     top:35%;
     left:6.5%;
     margin-right:0%;
     margin-left:0%;
-    width:30%; 
+    width:auto; 
     height:35%;
 }
 
@@ -417,7 +403,7 @@ h3 {
     right:6.5%;
     margin-right:0%;
     margin-left:22cm;
-    width:30%; 
+    width:auto; 
     height:37%;
 }
 
@@ -427,7 +413,7 @@ h3 {
     left:5%;
     margin-right:22cm;
     margin-left:0%;
-    width:30%; 
+    width:auto; 
     height:35%;
 }
 
@@ -437,7 +423,7 @@ h3 {
     right:5%;
     margin-right:0%;
     margin-left:22cm;
-    width:30%; 
+    width:auto; 
     height:35%;
 }
 
@@ -447,7 +433,7 @@ h3 {
     left:6.5%;
     margin-right:0%;
     margin-left:0%;
-    width:30%; 
+    width:auto; 
     height:35%;
 }
 
@@ -457,7 +443,7 @@ h3 {
     right:6.5%;
     margin-right:0%;
     margin-left:22cm;
-    width:26%; 
+    width:auto; 
     height:37%;
 }
 
@@ -467,13 +453,13 @@ h3 {
     left:5%;
     margin-right:22cm;
     margin-left:0%;
-    width:25%; 
+    width:auto; 
     height:40%;
 }
 
 .text_images4{
     position:absolute;
-    top:156.5%;
+    top:140.5%;
     right:6.5%;
     margin-right:0%;
     margin-left:22cm;
@@ -481,24 +467,35 @@ h3 {
     height:40%;
 }
 
+
+
+/* main page code ends here */
+/* footer code */
+footer {
+    background-color: #C3E8D5;
+    text-align: center;
+    font-family: "fredoka", sans-serif;
+    font-size: 118.1%;
+    margin-top: 5%;
+    padding: 1%;
+}
+
 .footer2 {
-    background-color: #d9d2e9ff;
+    background-color: #C3E8D5;
     text-align: center;
     font-family: "fredoka", sans-serif;
     font-size: 118.1%;
-    margin-top: 50%;
+    margin-top: 5%;
     z-index:2;
+    position: relative;
 }
 
-#footer3 {
-    background-color: #d9d2e9ff;
-    text-align: center;
-    font-family: "fredoka", sans-serif;
-    font-size: 118.1%;
-    margin-top: 2.5%;
-    z-index:2;
+.italic-text {
+        font-style: italic;
 }
+/* footer code ends */
 
+/* quiz code starts */
 .question{
   font-weight: 600%;
   margin-top: 0%;  
@@ -545,13 +542,13 @@ h3 {
     margin-left:45%;
 }
 
+/* quiz code ends */
+
+/* sizing for different screen sizes*/
 @media only screen and (max-width: 3256px) {
     #menuBar {
         padding-top: 7%;
     }
-    html, body {
-    background-color: lavender;
-}
 h6 {
     font-size: 500%;
 }
@@ -570,18 +567,12 @@ margin-bottom: 2%;
     #menuBarss {
         padding-top: 9%;
     }
-    html, body {
-    background-color: pink;
-}
 h2{
 margin-bottom: 2%; 
 }
 }
 
 @media only screen and (max-width: 1750px) {
-    html, body {
-    background-color: floralwhite;
-}
 #menuBar {
         padding-top: 7%;
 }
@@ -619,8 +610,7 @@ margin-bottom: 2%;
         padding-top: 9%;
         width: 22%;
     }
-    html, body {
-    background-color: peachpuff;
+    #email {
     font-size:90%;
 }
 
@@ -634,13 +624,12 @@ h6 {
         padding-top: 10%;
     }
     #menuBars {
-        padding-top: 20%;
+        padding-top: 10%;
     }
     #menuBarss {
         padding-top: 10%;
     }
-html, body {
-    background-color: palegoldenrod;
+#email {
     font-size:85%;
 }
 h6 {
@@ -671,9 +660,6 @@ h6 {
     #menuBarss {
         padding-top: 10%;
     }
-html, body {
-    background-color: papayawhip;
-}    
 }
 
 @media only screen and (max-width: 855px) {
@@ -686,9 +672,6 @@ html, body {
     #menuBarss {
         padding-top: 10%;
     }
-    html, body {
-    background-color: plum;
-}
 h6 {
     font-size: 220%;
 }    
@@ -709,9 +692,6 @@ h6 {
     #menuBarss {
         padding-top: 10%;
     }
-     html, body {
-    background-color: purple;
-}
 h6 {
     font-size: 200%;
 }        
@@ -736,103 +716,109 @@ h6 {
     #menuBarss {
         padding-top: 10%;
     }
-     html, body {
-    background-color:blueviolet ;
-} 
 h6 {
     font-size: 180%;
 } 
 .rectangle2 {
-    width: 39%;
-    top:44%;
-    right:45%;
+    width: 89%;
+    top:24%;
+    right:5.5%;
 }
 
 .rectangle3 {
-    width: 39%;
+    width: 89%;
     top:83.5%;
-    left:5%;
+    left:5.5%;
 }
 
 .rectangle4 {
-    width: 39%;
-    top:126%;
-    right:5%;
+    width: 89%;
+    top:137%;
+    right:5.5%;
 }
 
 .rectangle5 {
-    width: 39%;
-    top:168%;
-    left:5%;
+    width: 89%;
+    top:186%;
+    left:5.5%;
 }
 
 .rectangle6 {
     width: 89%;
-    top:34%;
+    top:24%;
     right:5.5%;
 }
 
 .rectangle7 {
     width: 89%;
-    top:88.5%;
-    left:17.5%;
+    top:85.5%;
+    left:5.5%;
 }
 
 .rectangle8 {
     width: 89%;
-    top:117%;
-    right:12.5%;
+    top:137%;
+    right:5.5%;
 }
 
 .rectangle9 {
     width: 89%;
-    top:176%;
-    left:17.5%;
+    top:186%;
+    left:5.5%;
 }
+
 .text_images1{
-    top:55%;
-    left:41.5%;
-    width:auto; 
-    height:35%;
+    top:42%;
+    left:34.5%;
 }
 
 .text_images2{
-    position:absolute;
-    top:73.5%;
-    right:6.5%;
-    margin-right:0%;
-    margin-left:22cm;
-    width:auto; 
-    height:37%;
+    top:100.5%;
+    right:37.5%;
+    height:30%;
 }
 
 .text_images3{
-    position:absolute;
-    top:110%;
-    left:5%;
-    margin-right:22cm;
-    margin-left:0%;
-    width:auto; 
-    height:40%;
+    top:151%;
+    left:34.5%;
+    height:30%;
 }
 
 .text_images4{
-    position:absolute;
-    top:190.5%;
+    top:205.5%;
     right:34.5%;
-    margin-right:0%;
-    margin-left:22cm;
-    width:auto; 
-    height:40%;
+    height:30%;
 }
+
+.email_images1{    
+    top:46%;
+    left:34.5%;
+    height:30%;
+}
+
+.email_images2{
+    top:107.5%;
+    right:37.5%;
+    height:30%;
+}
+
+.email_images3{
+    top:156%;
+    left:34.5%;
+    height:28%;
+}
+
+.email_images4{
+    top:205.5%;
+    right:34.5%;
+    height:30%;
+}
+
 .footer2 {
-    background-color: #d9d2e9ff;
-    text-align: center;
-    font-family: "fredoka", sans-serif;
-    font-size: 118.1%;
-    margin-top: 120%;
-    z-index:2;
+    margin-top:42%;
+    font-size: 138.1%;
 }
+
 }
 
 @media only screen and (max-width: 715px) {
@@ -850,8 +836,8 @@ h6 {
     #menuBarss {
         padding-top: 14%;
     }
-    html, body {
-    background-color:burlywood ;
+#email {
+    font-size:80%;
 } 
 h6 {
     font-size: 170%;
@@ -866,19 +852,21 @@ h6 {
     }
     #menuBar {
         padding-top: 14%;
+        font-size:80%
     }
     #menuBars {
         padding-top: 14%;
+        width:20%;
     }
     #menuBarss {
         padding-top: 14%;
     }
-    html, body {
-    background-color:violet ;
+    #email {
+    font-size:60%;
 }
 
 h6 {
-    font-size: 150%;
+    font-size: 130%;
 }
 }
 @media only screen and (max-width: 530px) {
@@ -893,11 +881,118 @@ h6 {
     }
     #menuBars {
         padding-top: 12%;
+        width:20%;
     }
     #menuBarss {
         padding-top: 12%;
+        width:40%;
     }
-    html, body {
-    background-color:honeydew ;
-} 
+    #email {
+    font-size:60%;
+    }
+.rectangle2 {
+    top:26%;
+    right:5%;
 }
+
+.rectangle3 {
+    top:96.5%;
+    left:5.5%;
+}
+
+.rectangle4 {
+    top:169%;
+    right:5.5%;
+}
+
+.rectangle5 {
+    top:238%;
+    left:5.5%;
+}
+
+.rectangle6 {
+    top:24%;
+    right:5.5%;
+}
+
+.rectangle7 {
+    top:96.5%;
+    left:5.5%;
+}
+
+.rectangle8 {
+    top:169%;
+    right:5.5%;
+}
+
+.rectangle9 {
+    top:238%;
+    left:5.5%;
+}
+
+.text_images1{
+    top:55%;
+    left:16.5%;
+}
+
+.text_images2{
+    top:128.5%;
+    right:36.5%;
+}
+
+.text_images3{
+    top:196%;
+    left:35.5%;
+}
+
+.text_images4{
+    top:255.5%;
+    right:32.5%;
+    margin-bottom: 10%;
+}
+
+.email_images1{
+    top:62%;
+    left:26.5%;
+}
+
+.email_images2{
+    top:128.5%;
+    right:36.5%;
+}
+
+.email_images3{
+    top:198%;
+    left:35.5%;
+}
+
+.email_images4{
+    top:259.5%;
+    right:32.5%;
+    margin-bottom: 10%;
+}
+
+.credit-text-right{    
+    font-size:110%;
+    left:87%;
+    top:138%
+}
+
+.credit-text-left{
+    font-size:110%;    
+    right:80%;
+    top:82%
+}
+
+.credit-text-left2{ 
+    font-size:110%;   
+    right:80%;
+    top:206%
+}
+
+.footer2 {
+    margin-top:142%;
+    font-size: 138.1%;
+}
+} 
+/* sizing for different screen sizes ends*/
